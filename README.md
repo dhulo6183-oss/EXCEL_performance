@@ -2,28 +2,10 @@
 
 > A comprehensive Excel-based HR analytics project analyzing performance, KPI scores, attendance, and promotion eligibility across 5,000 employee records.
 
----
 
-## 📁 Project Structure
 
-```
-EmployeesPerformance/
-├── Employee_Performance_Dataset.csv
-├── Employee_Performance_Dataset.xlsx
-└── Screenshots/
-    ├── 1.Imported_Dataset
-    ├── 2.Checked_Duplicates
-    ├── 3.1.Average_Performance
-    ├── 3.2.Promotion_Analysis
-    ├── 3.3.KPI_Analysis
-    ├── 3.4.Attendance_Analysis
-    ├── 4.1.Advanced_Formulas
-    ├── 4.2.Advanced_Formula
-    ├── 5.Conditional_Formatting
     ├── Dashboard
-    └── Documentation
-```
-
+  
 ---
 
 ## 📌 Project Overview
@@ -63,14 +45,13 @@ EmployeesPerformance/
 ### Step 1 — Data Import
 > Imported the raw Employee Performance Dataset into Excel with all 13 columns and 5,000 rows, applying table formatting and auto-filters for easy navigation.
 
-![Imported Dataset](Screenshots/1.Imported_Dataset.png)
+
 
 ---
 
 ### Step 2 — Data Cleaning: Duplicate Check
 > Ran Excel's built-in duplicate detection across all columns. Result: **No duplicate values found** — confirming a clean, reliable dataset ready for analysis.
 
-![Checked Duplicates](Screenshots/2.Checked_Duplicates.png)
 
 ---
 
@@ -79,21 +60,19 @@ EmployeesPerformance/
 #### 3.1 Average Performance Score by Department
 > Created a pivot table to calculate the average performance score per department, paired with a clustered column chart. HR leads with **76**, while Marketing and Sales average **74**.
 
-![Average Performance](Screenshots/3.1.Average_Performance.png)
 
 ---
 
 #### 3.2 Promotion Eligible Employees by Department
 > Analyzed promotion eligibility counts across all departments. Out of 5,000 total employees, **695 are promotion-eligible**. HR has the highest eligible count (154), while IT has the lowest (129).
 
-![Promotion Analysis](Screenshots/3.2.Promotion_Analysis.png)
 
 ---
 
 #### 3.3 Average KPI Score by Job Role
 > Ranked all job roles by average KPI score. **Recruitment Specialists** lead at **78.11**, while **Marketing Executives** rank lowest at **76.50**. Overall average KPI: **77.38**.
 
-![KPI Analysis](Screenshots/3.3.KPI_Analysis.png)
+
 
 ---
 
@@ -109,7 +88,6 @@ EmployeesPerformance/
 #### 4.1 VLOOKUP & INDEX-MATCH
 > Added a `Bonus` column using **VLOOKUP** to map department-based bonuses from a lookup table. Used **INDEX-MATCH** to retrieve employee names by ID for cross-referencing.
 
-![Advanced Formulas 1](Screenshots/4.1.Advanced_Formulas.png)
 
 | Department | Bonus |
 |---|---|
@@ -124,14 +102,13 @@ EmployeesPerformance/
 #### 4.2 IF & Nested IF — Workload & Ratings
 > Applied **IF** formulas to classify employees into `Workload Category` (Normal / High Workload) and **Nested IF** to derive `Ratings` (Poor / Average / Good / Excellent) based on performance score thresholds.
 
-![Advanced Formula 2](Screenshots/4.2.Advanced_Formula.png)
+
 
 ---
 
 ### Step 5 — Conditional Formatting
 > Applied data bars on the `Attendance (%)` column for quick visual scanning, and color-coded arrow icons on `Peer Rating` — green arrows (↑) for high ratings, orange arrows (→) for average, and red arrows (↓) for low ratings.
 
-![Conditional Formatting](Screenshots/5.Conditional_Formatting.png)
 
 ---
 
@@ -157,7 +134,6 @@ EmployeesPerformance/
 
 > A dedicated Documentation sheet summarizes the entire project scope, tools used, and outputs generated for easy reference and handoff.
 
-![Documentation](Screenshots/Documentation.png)
 
 ---
 
